@@ -1,0 +1,90 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    display: block;
+}
+
+p {
+    display: block;
+    font-size: large;
+}
+
+/* Font Styles */
+.font-panel {
+    display: inline-block;
+    width: 45%;
+}
+
+.font-label {
+    text-decoration: underline;
+    font-size: 25px;
+}
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.font-link {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Fonts */
+
+.monospace {
+    font-family: monospace;
+}
+
+/* Containers */
+.container {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px auto;
+}
+
+.color-container {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 32%;
+    text-align: center;
+    margin: 5px;
+    min-height: 100px;
+}
+
+/* Color of Containers */
+.pastel-blue {
+    background-color: #CFE2F3;
+}
+
+.lavender {
+    background-color: #E6E6FA;
+}
+
+.gray {
+    background-color: #83888E;
+    color: white;
+}
+
+.dark-sea-green {
+    background-color: #8FBC8F;
+    color: white;
+}
+
+.tan {
+    background-color: #fff6df;
+}
+
+.light-red {
+    background-color: #f64663;
+    color: white;
+}
